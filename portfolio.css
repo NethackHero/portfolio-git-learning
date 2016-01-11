@@ -6,34 +6,28 @@
 h1{
   font-family: "Lucida Bright", Georgia,serif;
   color: rgb(0,0,0);
+  -moz-text-shadow: 4px 4px 3px rgb(100, 0, 0);
   text-shadow: 4px 4px 3px rgb(100, 0, 0);
   font-size: 10em;
 }
 
-body{
+h2{
+  font-size: 50px;
 }
 
 p{
   font-family: "Times New Roman", Serif;
   font-size: 24px;
 }
-h2{
-  font-size: 50px;
-}
 
-.menubar{
-}
-
-.menubar li{
-  display: inline;
-}
-.menubar #name{
-  float: left;
+.menubar ul{
+	float: left;
 }
 
 .menubar #nav{
   float: right;
 }
+
 
 .home{
 	  background-color: brown;
@@ -50,7 +44,7 @@ h2{
   background-image: url("http://wallpoper.com/images/00/45/05/47/green-background-2_00450547.jpg");
   padding: 30px 10px 10px 10px;
   background-attachment: fixed;
-  min-height: 500px
+  min-height: 1000px
 }
 
 .mid{
@@ -65,7 +59,7 @@ h2{
   margin: 0px;
   padding: 30px 10px 10px 10px;
   background-attachment: fixed;
-  min-height:500px
+  min-height:1000px
 }
 
 
@@ -74,7 +68,8 @@ h2{
 }
 
 #top img{
-  border-radius:50%;
+  padding: 10%;
+  border-radius:20%;
 }
 #nav>li>a:hover{
 	color: white;
@@ -92,8 +87,14 @@ h2{
 	background-color: rgb(100, 100, 100);
 }
 
-#nav{
+.nav{
   padding-bottom: 0px;
   background-color: rgb(200,200,200)
+}
+
+
+
+.navbar>ul:nth-child(1){
+	font-size:1.5em;
 }
 
