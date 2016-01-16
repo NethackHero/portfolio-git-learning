@@ -74,10 +74,18 @@ p{
 #nav>li>a{
 	transition: background-color 0.5s;
 }
+.navbar li>a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 #nav>li>a:hover{
 	color: white;
 	font-size: 1.5em;
 	background-color: rgb(100, 100, 100);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #nav>li>a:focus{
@@ -88,16 +96,15 @@ p{
 	color: white;
 	font-size: 1.5em;
 	background-color: rgb(100, 100, 100);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;;
 }
 
-.nav{
-  padding-bottom: 0px;
-  background-color: rgb(200,200,200)
+
+
+#topnav {
+    min-height: 0px;
+    height: 40px;
 }
-
-
-
-.navbar>ul:nth-child(1){
-	font-size:1.5em;
-}
-

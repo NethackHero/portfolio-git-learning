@@ -10,7 +10,8 @@ $('.nav>li>a').click(function(){
 
 $(document).ready(function(){
 	
-	$('.nav>li>a').click(function(){
+	$('.nav>li>a').click(function(e){
+		e.preventDefault();
 			$('html, body').animate( 
 			{ scrollTop: $( $(this).attr('href') ).offset().top } 
 			, 1000 );
